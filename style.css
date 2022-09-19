@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-
+    font-family: 'Times New Roman', Times, serif;
 }
 .header {
     display:flex;
@@ -8,7 +8,7 @@ body {
     justify-content:space-between;
     background-color: #1F2937;
     padding: 10px 125px 25px 125px;
-
+    color:white
 }
 ul {
     list-style: none;
@@ -24,10 +24,12 @@ ul {
 .first{
     display:flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    gap:20px;
+    justify-content: center;
+    gap:70px;
     padding:30px 150px 15px 150px;
     background-color: #1F2937;
+    color:white;
+   
 }
 .first-left{
     height: 300px;
@@ -126,5 +128,6 @@ ul {
     background-color:#1F2937;
     justify-content: center;
     padding:30px 30px;
+    color:white;
 }
 
